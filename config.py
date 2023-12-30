@@ -9,8 +9,8 @@ WSGI_HOST = "0.0.0.0"
 WSGI_PORT = 1234
 
 # The absolute path to the CQP binaries
-CQP_EXECUTABLE = ""
-CWB_SCAN_EXECUTABLE = ""
+CQP_EXECUTABLE = "/usr/local/bin/cqp"
+CWB_SCAN_EXECUTABLE = "/usr/local/bin/cwb-scan-corpus"
 
 # The absolute path to the CWB registry files
 CWB_REGISTRY = ""
