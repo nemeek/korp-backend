@@ -1,6 +1,3 @@
 label:
-  eng: default
-autocomplete: false
-struct_attribute_selector: intersection
-pos_attribute_selector: intersection
-word_picture: false
+  default
+
