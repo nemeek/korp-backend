@@ -83,9 +83,10 @@ def get_modes(mode_name=None):
                 "label": mode.get("label", mode_file.stem),
                 "order": mode.get("order")
             })
-    return [
-        {k: m[k] for k in m if k not in "order"} for m in sorted(modes, key=lambda x: (x["order"] is None, x["order"]))
-    ]
+    return 'JAMA!'
+    # return [
+    #     {k: m[k] for k in m if k not in "order"} for m in sorted(modes, key=lambda x: (x["order"] is None, x["order"]))
+    # ]
 
 
 def get_mode(mode_name: str, corpora: list, cache: bool):
