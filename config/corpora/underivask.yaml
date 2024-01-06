@@ -12,7 +12,7 @@ description:
     yesterday
 id: underivask
 mode:
-    name: default
+  - name: default
 
 morphology: saldom|dalinm|swedbergm
 pos_attributes:

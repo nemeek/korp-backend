@@ -12,8 +12,8 @@ description:
     yesterday
 id: testcorpus
 mode:
-    name: default
-    name: parallel
+  - name: default
+
 
 morphology: saldom|dalinm|swedbergm
 pos_attributes:
