@@ -13,6 +13,7 @@ description:
 id: testcorpus
 mode:
     name: default
+    name: parallel
 
 morphology: saldom|dalinm|swedbergm
 pos_attributes:
