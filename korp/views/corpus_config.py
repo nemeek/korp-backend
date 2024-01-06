@@ -160,7 +160,7 @@ def get_mode(mode_name: str, corpora: list, cache: bool):
 
         # Check if corpus is included in selected mode
         cdgm = corpus_def.get("mode", [])
-        raise Exception(cdgm)
+        raise Exception(corpus_def)
         aff = [m["name"] for m in cdgm]
         if corpora or mode_name in aff:
             for attr_type_name, attr_type in attr_types.items():
