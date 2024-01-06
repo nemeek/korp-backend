@@ -72,18 +72,19 @@ def get_modes(mode_name=None):
         mode_name: Name of current mode. A hidden mode will only be included if it is the current mode.
     """
     modes = []
-    for mode_file in (Path(app.config["CORPUS_CONFIG_DIR"]) / "modes").glob("*.yaml"):
-        with open(mode_file, "r", encoding="utf-8") as f:
-            mode = yaml.load(f, Loader=SafeLoader)
-            # Only include hidden modes when accessed directly
-            if mode.get("hidden") and not mode_name == mode_file.stem:
-                continue
-            modes.append({
-                "mode": mode_file.stem,
-                "label": mode.get("label", mode_file.stem),
-                "order": mode.get("order")
-            })
-    return 'JAMA!'
+    return ['esimene', 'teine', 'kolmas']
+    
+    # for mode_file in (Path(app.config["CORPUS_CONFIG_DIR"]) / "modes").glob("*.yaml"):
+    #     with open(mode_file, "r", encoding="utf-8") as f:
+    #         mode = yaml.load(f, Loader=SafeLoader)
+    #         # Only include hidden modes when accessed directly
+    #         if mode.get("hidden") and not mode_name == mode_file.stem:
+    #             continue
+    #         modes.append({
+    #             "mode": mode_file.stem,
+    #             "label": mode.get("label", mode_file.stem),
+    #             "order": mode.get("order")
+    #         })
     # return [
     #     {k: m[k] for k in m if k not in "order"} for m in sorted(modes, key=lambda x: (x["order"] is None, x["order"]))
     # ]
