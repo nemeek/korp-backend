@@ -15,13 +15,11 @@ mode:
   - name: default
 
 
-morphology: saldom|dalinm|swedbergm
 pos_attributes:
   - pos: pos
-struct_attributes:
-  - text_date: date
+
 title:
-  swe: 'Äldre finlandssvenska: Åland 1891–1911'
+  swe: 'Under Ivask'
   eng: 'Under and Ivask correspondence'
 within:
   - label:
