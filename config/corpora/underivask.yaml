@@ -4,9 +4,9 @@ context:
       swe: 1 mening
     value: 1 sentence
 description:
-  swe: Test korpus
-  eng: Testing corpus
-id: testcorpus
+  swe: Under Ivask
+  eng: Under and Ivask short
+id: underivask
 mode:
   - name: default
 
@@ -15,8 +15,8 @@ pos_attributes:
   - pos: pos
 
 title:
-  swe: 'Test korpus'
-  eng: 'Test corpus'
+  swe: 'Under-Ivask'
+  eng: 'Under-Ivask'
 within:
   - label:
       eng: sentence
