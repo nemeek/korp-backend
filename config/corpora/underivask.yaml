@@ -15,6 +15,13 @@ pos_attributes:
   - baseform: lemma
   - pos: epos
   - number: number
+  - cases: case
+  - voice: voice
+  - tense: tense
+  - nominal: nominal
+  - mood: mood
+  - person: person
+  - negation: negation
 
 title:
   swe: 'Under-Ivask'
