@@ -1,8 +1,8 @@
 context:
   - label:
-      eng: 1 sentence
-      swe: 1 mening
-    value: 1 sentence
+      eng: 1 paragraph
+      swe: 1 paragraph
+    value: 1 paragraph
 description:
   swe: Under Ivask
   eng: Under and Ivask short
@@ -14,6 +14,7 @@ mode:
 pos_attributes:
   - baseform: lemma
   - pos: epos
+  - number: number
 
 title:
   swe: 'Under-Ivask'
