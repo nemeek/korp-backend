@@ -30,71 +30,71 @@ opts:
   is_not: '!='
 order: 0
 translation:
-  A:
+  _A_:
     eng: adjective
     swe: adjektiv
     est: omadussõna algvõrre
-  B:
+  _B_:
     eng: sentence particle
     swe: partikel
     est: lausepartikkel
-  C:
+  _C_:
     eng: adjective comparative
     swe: adjektiv
     est: omadussõna keskvõrre
-  D:
+  _D_:
     eng: adverb
     swe: adverb
     est: määrsõna
-  G:
+  _G_:
     eng: genitive attribute
     swe: genitive
     est: genitiivatribuut
-  H:
+  _H_:
     eng: proper noun
     swe: egennamn
     est: pärisnimi
-  I:
+  _I_:
     eng: interjection
     swe: interjektion
     est: hüüdsõna
-  K:
+  _K_:
     eng: adposition
     swe: adposition
     est: kaassõna
-  N:
+  _N_:
     eng: cardinal number
     swe: grundtal
     est: põhiarvsõna
-  O:
+  _O_:
     eng: ordinal number
     swe: ordningstal
     est: järgarvsõna
-  P:
+  _P_:
     eng: pronoun
     swe: pronomen
     est: asesõna
-  Q:
+  _Q_:
     eng: foreign word
     swe: utländskt ord
     est: tundmatu
-  S:
+  _S_:
     eng: noun
     swe: substantiv
     est: nimisõna
-  U:
+  _U_:
     eng: adjective superlative
     swe: adjective
     est: omadussõna ülivõrre
-  V:
+  _V_:
     eng: verb
     swe: verb
     est: tegusõna
-  X:
+  _X_:
     eng: particle
     swe: partikel
     est: verbi juurde kuuluv sõna
-  Z:
+  _Z_:
     eng: punctuation
     swe: interpunktion
     est: kirjavahemärk
