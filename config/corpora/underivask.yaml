@@ -8,11 +8,12 @@ description:
   eng: Under and Ivask short
 id: underivask
 mode:
-  - name: default
+  - name: litterary
 
 
 pos_attributes:
-  - pos: pos
+  - lemma: lemma
+  - pos: epos
 
 title:
   swe: 'Under-Ivask'
