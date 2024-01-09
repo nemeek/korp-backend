@@ -1,6 +1,7 @@
 # Editors
 .idea/
 .vscode/
+*~
 
 # Byte-compiled / optimized
 __pycache__/
@@ -15,3 +16,4 @@ venv/
 
 # Instance dir
 instance/
+
