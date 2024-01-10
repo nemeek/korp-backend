@@ -4,8 +4,8 @@ dataset:
 escape: false
 extended_component: datasetSelect
 label:
-  eng: eitus
-  est: negation
+  eng: negation
+  est: eitus
 opts:
   is: '='
   is_not: '!='
