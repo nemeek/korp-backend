@@ -94,6 +94,10 @@ translation:
     eng: particle
     swe: partikel
     est: verbi juurde kuuluv sõna
+  _Y_:
+    eng: abbreviation
+    swe: abbr
+    est: lühend
   _Z_:
     eng: punctuation
     swe: interpunktion
