@@ -22,6 +22,12 @@ pos_attributes:
   - person: person
   - negation: negation
 
+struct_attributes:
+  - sender: sender
+  - recipient: recipient
+  - place: place
+  - year: year
+
 title:
   swe: 'Semper-Barbarus'
   eng: 'Semper-Barbarus'
