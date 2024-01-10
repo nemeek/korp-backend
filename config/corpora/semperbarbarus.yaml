@@ -23,10 +23,10 @@ pos_attributes:
   - negation: negation
 
 struct_attributes:
-  - sender: sender
-  - recipient: recipient
-  - place: place
-  - year: year
+  - text_sender: sender
+  - text_recipient: recipient
+  - text_place: place
+  - text_year: year
 
 title:
   swe: 'Semper-Barbarus'
