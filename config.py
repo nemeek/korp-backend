@@ -29,17 +29,17 @@ PARALLEL_THREADS = 3
 
 # Database host and port
 DBHOST = "0.0.0.0"
-DBPORT = 3306
+DBPORT = 3307
 
 # Database name
-DBNAME = ""
+DBNAME = "korp"
 
 # Word Picture table prefix
 DBWPTABLE = "relations"
 
 # Username and password for database access
-DBUSER = ""
-DBPASSWORD = ""
+DBUSER = "korpikasutaja"
+DBPASSWORD = "korpiparool"
 
 # Cache path (optional). Script must have read and write access.
 CACHE_DIR = ""
