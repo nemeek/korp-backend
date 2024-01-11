@@ -27,6 +27,7 @@ struct_attributes:
   - text_recipient: recipient
   - text_place: place
   - text_year: year
+  - text_date: date
 
 title:
   swe: 'Semper-Barbarus'

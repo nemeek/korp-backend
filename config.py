@@ -28,7 +28,8 @@ MAX_KWIC_ROWS = 0
 PARALLEL_THREADS = 3
 
 # Database host and port
-DBHOST = "0.0.0.0"
+# DBHOST = "0.0.0.0"
+DBHOST = "127.0.0.1"
 DBPORT = 3307
 
 # Database name
